@@ -87,6 +87,9 @@ The user's pulse rate, body temperature, and heart rate, as well as room tempera
 More research should be carried out w.r.t. aspects that lead to an increase in health risks. The use of IoT for remote monitoring will increase as data will be collected for a long span. In the coming years, this will provide a science based and potent foundation for identifying, controlling and preventing chronic and high-risk diseases.
 
 
+# For more details, circuit diagrams and visualizations refer the PPT
+
+
 
 
 
