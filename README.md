@@ -45,6 +45,7 @@ Data Aggregation
 For training the models, dataset was divided into 2 subsets. After training subsets were aggregated and a new attribute was introduced “Medical_aid_required” that determines the patient’s current condition and takes necessary action (in our case email notification is sent to patient’s family and doctor).
 
 # HARDWARE COMPONENTS
+
 i. ESP8266 NodeMCU 
 ii. MAX30100 Pulse Oximeter Sensor
 iii. DS18B20 Temperature Sensor
@@ -52,6 +53,7 @@ iv. DHT11 Humidity & Temperature Sensor
 v. Resistors and connecting wires.
 
 #WORKING AND METHODOLOGY
+
 Approach
 The patient keeps their finger on the pulse oximeter sensor, and the body temperature sensor in their armpit. 
 The sensors of the monitoring system sense the following parameters:
