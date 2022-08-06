@@ -60,8 +60,10 @@ v. Resistors and connecting wires.
 # WORKING AND METHODOLOGY
 
 Approach
+
 The patient keeps their finger on the pulse oximeter sensor, and the body temperature sensor in their armpit. 
 The sensors of the monitoring system sense the following parameters:
+
 -> Pulse Rate (BPM)
 
 -> Blood Oxygen Level (SpO2)
