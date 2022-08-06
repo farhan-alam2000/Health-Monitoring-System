@@ -47,21 +47,31 @@ For training the models, dataset was divided into 2 subsets. After training subs
 # HARDWARE COMPONENTS
 
 i. ESP8266 NodeMCU 
+
 ii. MAX30100 Pulse Oximeter Sensor
+
 iii. DS18B20 Temperature Sensor
+
 iv. DHT11 Humidity & Temperature Sensor
+
 v. Resistors and connecting wires.
 
-#WORKING AND METHODOLOGY
+
+# WORKING AND METHODOLOGY
 
 Approach
 The patient keeps their finger on the pulse oximeter sensor, and the body temperature sensor in their armpit. 
 The sensors of the monitoring system sense the following parameters:
 -> Pulse Rate (BPM)
+
 -> Blood Oxygen Level (SpO2)
+
 -> Body Temperature
+
 -> Room Temperature
+
 -> Room Humidity
+
 
 Room temperature and humidity are measured so that the person monitoring can get to know if the temperature or humidity is too high or too low, so they can lower temperature of the room by turning on the AC, or shifting the patient to another room with less sunlight, etc. The sensors send the values to the NodeMCU (ESP8266) wifi module, which sends the data through the internet to the Thinger.IO cloud platform, where the readings of the patient can be viewed remotely. 
 Through the readings of the various values, the Machine Learning model predicts whether the patient needs medical aid or not. If the ML model (that uses multivariate logistic regression) predicts yes, an email notification is sent immediately to the email ID stored by the person monitoring on the Thinger.IO platform.
